@@ -700,7 +700,7 @@ def print_gender_randomization_info(cohort_size=None,
 
 
 def get_ids(shuffled_list):
-    """Returns list containing only ids"""
+    """returns list containing only ids"""
     shuffled_ids = []
     for block in shuffled_list:
         ids = []
